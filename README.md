@@ -20,7 +20,8 @@ The project used the statistics and hypothesis tests to check the series of data
 ## T-test on Suspension Coils
    * T-Test All Manufucturing Lots vs. Population Mean
    ![T-Test All Manufucturing Lots vs. Population Mean](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/T-test%20all.PNG)
-   
+     * All manufacturing lots is statistically similar to the population mean of 1498.78
+     
    *  T-Test Lot 1
    ![T-Test 1](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/T-test%20Lot%201.PNG)
       
@@ -30,3 +31,11 @@ The project used the statistics and hypothesis tests to check the series of data
    *  T-Test Lot 3
    ![T-Test 3](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/T-test%20Lot%203.PNG)
 
+## Study Design
+* We compare the performance of the MechaCar prototype against the vehicles from the competition, we will perform a statistical analysis based on the following metrics:
+
+ 1. Power.
+ 2. Fuel economy (mpg).
+ 3. Braking Distance.
+ 
+ * The null hypothesis is that each performance metrics is statistically similar between the MechaCar model and all vehicle from the other companies.
