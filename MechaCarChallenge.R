@@ -93,8 +93,7 @@ Manufacturing_Lot  Mean Median Variance     SD
   1 Lot1              1500   1500     0.980  0.990
 2 Lot2              1500.  1500     7.47   2.73 
 3 Lot3              1496.  1498.  170.    13.0  
-> global_sample_table <- suspension_coil_data %>% sample_n(50)
-Error in sample_n(., 50) : object 'suspension_coil_data' not found
+
 > global_sample_table <- Suspension_Coil %>% sample_n(50)
 > plt <- ggplot(Suspension_Coil,aes(x=PSI))
 > plt + geom_density()
@@ -142,39 +141,6 @@ sample estimates:
   mean of x 
 1500.16 
 
-> force(stat_summary)
-function (mapping = NULL, data = NULL, geom = "pointrange", 
-          position = "identity", ..., fun.data = NULL, fun = NULL, 
-          fun.max = NULL, fun.min = NULL, fun.args = list(), na.rm = FALSE, 
-          orientation = NA, show.legend = NA, inherit.aes = TRUE, fun.y, 
-          fun.ymin, fun.ymax) 
-{
-  if (!missing(fun.y)) {
-    warn("`fun.y` is deprecated. Use `fun` instead.")
-    fun = fun %||% fun.y
-  }
-  if (!missing(fun.ymin)) {
-    warn("`fun.ymin` is deprecated. Use `fun.min` instead.")
-    fun.min = fun.min %||% fun.ymin
-  }
-  if (!missing(fun.ymax)) {
-    warn("`fun.ymax` is deprecated. Use `fun.max` instead.")
-    fun.max = fun.max %||% fun.ymax
-  }
-  layer(data = data, mapping = mapping, stat = StatSummary, 
-        geom = geom, position = position, show.legend = show.legend, 
-        inherit.aes = inherit.aes, params = list(fun.data = fun.data, 
-                                                 fun = fun, fun.max = fun.max, fun.min = fun.min, 
-                                                 fun.args = fun.args, na.rm = na.rm, orientation = orientation, 
-                                                 ...))
-}
-<bytecode: 0x000001a62f9d0380>
-  <environment: namespace:ggplot2>
-  > total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
-> View(Scale)
-> View(Stat)
-> View(Stat)
-> force(StatSum)
 > total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 > total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 > t.test(psi_lot1_sample$PSI,mu=mean(Suspension_Coil$PSI))
