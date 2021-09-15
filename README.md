@@ -2,8 +2,17 @@
 
 ## Overview
 
-* Linear Regression to Predict MPG 
+
+
+## Linear Regression to Predict MPG 
 ![Linear Regression](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Linear%20Regression.PNG)
+
+## Summary of Suspension Coils
+   ### All Manufucturing Lot
+![All Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Manufacturing%20lot.PNG)
+
+   ### Each Manufucturing Lot
+!Each Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Manufacturing%20lot.PNG)
    
 
 ## Study Design: MechaCar vs Competition
