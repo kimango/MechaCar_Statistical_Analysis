@@ -1,14 +1,13 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
-
-
+The project used the statistics and hypothesis tests to check the series of datasets from the automotive industry. 
 
 ## Linear Regression to Predict MPG 
 ![Linear Regression](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Linear%20Regression.PNG)
 
 ## Summary of Suspension Coils
-   ### All Manufucturing Lot
+  * All Manufucturing Lot
 ![All Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Suspension%20Coil%20Mean.PNG)
 
    ### Each Manufucturing Lot
