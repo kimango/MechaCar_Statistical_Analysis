@@ -30,9 +30,11 @@ The project used the statistics and hypothesis tests to check the series of data
    
    *  T-Test Lot 3
    ![T-Test 3](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/T-test%20Lot%203.PNG)
+      * The p-values for Lot 2 and 3 have the same significant level, so we can conclude that the PSI for Lot 2 and 3 are statistically similar to the population mean.
+
 
 ## Study Design
-* We compare the performance of the MechaCar prototype against the vehicles from the competition, we will perform a statistical analysis based on the following metrics:
+* We compare the performance of the MechaCar examples against the vehicles from the competition, we would need to perform a statistical analysis based on the following metrics:
 
  1. Power.
  2. Fuel economy (mpg).
