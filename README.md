@@ -6,7 +6,7 @@ The project used the statistics and hypothesis tests to check the series of data
 ## Linear Regression to Predict MPG 
 ![Linear Regression](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Linear%20Regression.PNG)
  * The R-square is 0.71 or 71% of the variations in mpg can be descried by changes in the vehicle length, the vehicle weight, the spoiler angle, the drivetrain and the ground clearance. We can consider this linear model as structured to predict mpg of MechaCar models.
- * 
+ 
 ## Summary of Suspension Coils
   * All Manufucturing Lot
 ![All Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Suspension%20Coil%20Mean.PNG)
