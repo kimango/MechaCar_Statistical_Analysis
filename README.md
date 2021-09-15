@@ -12,7 +12,7 @@
 ![All Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Suspension%20Coil%20Mean.PNG)
 
    ### Each Manufucturing Lot
-!Each Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Manufacturing%20lot.PNG)
+![Each Manufucturing](https://github.com/kimango/MechaCar_Statistical_Analysis/blob/main/Module%2015th%20Images/Manufacturing%20lot.PNG)
    
 
 ## Study Design: MechaCar vs Competition
